@@ -40,7 +40,7 @@ You don't need to be a robotics expert. Bring an idea; let the AI help you build
 
 1. **Register and get your contest UUID.** Sign up on the official Robothon platform and copy the **registration UUID** issued to you.
 2. **Pick an AI coding tool** — Cursor, Claude Code, Kimi, Trae, or any agent you like.
-3. **Fork this repository** ([`Faraday-Future-AI/Robothon-starter`](https://github.com/Faraday-Future-AI/Robothon-starter/fork)) and let your AI set up the run environment.
+3. **Fork this repository** ([`Faraday-Future-AI/Robothon-starter`](https://github.com/Faraday-Future-AI/Robothon-starter/fork)), clone your fork locally (`git clone https://github.com/<your-github-username>/Robothon-starter.git && cd Robothon-starter`), and let your AI set up the run environment.
 4. **Propose an idea**, and have the AI build a runnable robot simulation in MuJoCo.
 5. **Open a Pull Request**, putting the **same UUID** in both [`registration.json`](submissions/SUBMISSION_TEMPLATE/registration.json) and the PR description.
 6. **Three AI judges (GPT · Claude · Gemini)** score every entry independently; winners are announced and prizes awarded.
@@ -48,7 +48,7 @@ You don't need to be a robotics expert. Bring an idea; let the AI help you build
 ```mermaid
 flowchart TD
     S1["1 · Register and get your contest UUID"] --> S2["2 · Pick an AI coding tool<br/>Cursor · Claude Code · Kimi · Trae …"]
-    S2 --> S3["3 · Fork this repository<br/>let your AI set up the environment"]
+    S2 --> S3["3 · Fork this repository<br/>clone locally + let AI set up"]
     S3 --> S4["4 · Propose an idea<br/>AI builds a runnable MuJoCo robot sim"]
     S4 --> S5["5 · Open a Pull Request<br/>same UUID in registration.json + PR description"]
     S5 --> S6["6 · 3 AI judges score independently<br/>GPT · Claude · Gemini"]
