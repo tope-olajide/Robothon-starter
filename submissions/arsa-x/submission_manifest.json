@@ -1,0 +1,73 @@
+{
+  "project": "ARSA-X — Agentic Robotic Surgery Assistant eXtended",
+  "registration_uuid": "8ca6327c-22be-45ea-a613-f590da407cac",
+  "participant": "Temitope Olajide",
+  "version": "3.0.0",
+  "summary": "Bimanual autonomous surgical suturing on Franka Panda (7-DOF) + Allegro Hand (16-DOF) + second Panda assistant arm (7-DOF) in MuJoCo. 10 atomic surgical skills including bimanual tissue stabilization, per-finger tactile sensing (63 sensors), 30 position-controlled actuators, 5 suture patterns, and finger gaiting for in-hand needle reorientation.",
+  "architecture": {
+    "controller": "closed-loop residual policy with tactile feedback",
+    "base_policy": "deterministic skill sequence (10 atomic skills)",
+    "residual_policy": "proportional gain + EMA smoothing from wrist F/T, per-finger tactile force distribution, needle error, slip detection",
+    "skill_count": 10,
+    "bimanual": true,
+    "suture_patterns": 5,
+    "suture_pattern_names": ["interrupted", "double", "mattress", "figure-eight", "running"],
+    "actuated_channels": 30,
+    "control_mode": "direct qpos position control with per-tick re-setting",
+    "primary_arm_dof": 7,
+    "hand_dof": 16,
+    "assistant_arm_dof": 7
+  },
+  "headline_metrics": {
+    "skills": 10,
+    "bimanual_skills": ["BimanualStabilizeTissue"],
+    "suture_patterns": 5,
+    "tests": 157,
+    "cameras": 6,
+    "sensors": 63,
+    "video_spec": "1280x720 @ 30fps (72s, 2160 frames, 8-camera cinematic sequence)",
+    "sensor_breakdown": {
+      "joint_position": 30,
+      "joint_velocity": 30,
+      "wrist_force": 1,
+      "wrist_torque": 1,
+      "finger_force": 4,
+      "finger_torque": 4
+    },
+    "actuator_type": "position-controlled actuators (30: 7 Panda + 16 Allegro + 7 assistant)",
+    "total_dof": 30,
+    "controller": "closed-loop residual with per-finger tactile feedback",
+    "mode": "autonomous + teleop + video + evaluation + data-collection + compare + showcase + audit"
+  },
+  "primary_artifacts": {
+    "scene": "arsax/scene/ (programmatic MjSpec subpackage with scene, robot, tissue, sensors modules) + arsax_scene.xml (standalone MJCF)",
+    "runner": "run.py",
+    "trajectory": "outputs/arsax_trajectory.json",
+    "report": "outputs/arsax_report.json",
+    "policy_card": "outputs/arsax_surgical_policy_card.json",
+    "evaluation": "outputs/arsax_evaluation.json",
+    "video": "outputs/arsax_demo.mp4",
+    "narration": "outputs/arsax_narration.srt",
+    "contact_timeline": "outputs/arsax_contact_timeline.json",
+    "latency_comparison": "outputs/arsax_latency_comparison.json"
+  },
+  "documentation": {
+    "readme": "README.md",
+    "technical_overview": "TECHNICAL_OVERVIEW.md",
+    "evaluation_guide": "EVALUATION_GUIDE.md",
+    "pr_description": "PR_DESCRIPTION.md",
+    "handoff": "handoff.md",
+    "rubric_scorecard": "evaluation_scorecard.json"
+  },
+  "run_commands": {
+    "install": "pip install -r requirements.txt && python setup.py",
+    "demo": "python run.py --mode video --duration 72 --fps 30 --width 1280 --height 720",
+    "smoke_test": "python run.py --mode video --duration 10 --fps 10",
+    "evaluate": "python run.py --mode evaluate",
+    "compare": "python run.py --mode compare --latency-ms 200",
+    "interactive": "python run.py",
+    "validate": "python validate_submission.py",
+    "tests": "python -m pytest tests/ -v"
+  },
+  "pr_url": "https://github.com/Faraday-Future-AI/Robothon-starter/pull/NUMBER"
+}

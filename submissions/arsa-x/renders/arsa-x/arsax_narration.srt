@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:05,760
+Stabilizing tissue with bimanual coordination — assistant arm engaged.
+
+2
+00:00:05,760 --> 00:00:14,400
+Grasping needle with 16-DOF Allegro hand — weld activated.
+
+3
+00:00:14,400 --> 00:00:21,600
+Orienting needle to optimal 45-degree insertion angle.
+
+4
+00:00:21,600 --> 00:00:32,400
+Driving needle through deformable tissue mesh.
+
+5
+00:00:32,400 --> 00:00:43,200
+Pulling suture with force-limited tension control.
+
+6
+00:00:43,200 --> 00:00:51,840
+Regrasping needle with dexterous in-hand repositioning.
+
+7
+00:00:51,840 --> 00:01:03,360
+Tying surgical knot with coordinated 4-finger motion.
+
+8
+00:01:03,360 --> 00:01:12,000
+Procedure complete — full suture cycle executed autonomously.

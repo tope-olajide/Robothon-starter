@@ -1,0 +1,42 @@
+{
+  "config": {
+    "n_rollouts": 32,
+    "seed": 42,
+    "randomization": {
+      "jitter_xy_max_mm": 20,
+      "jitter_z_max_mm": 10,
+      "slip_impulse_max_mm": 24,
+      "clutter_offset_max_mm": 18
+    }
+  },
+  "baseline": {
+    "label": "open-loop",
+    "n_rollouts": 32,
+    "success_rate": 0.0,
+    "success_count": 0,
+    "mean_final_error_m": 0.2922390528807798,
+    "median_final_error_m": 0.28797322880410886,
+    "p95_final_error_m": 0.3117219115844222,
+    "min_final_error_m": 0.26609037969758187,
+    "max_final_error_m": 0.359754789266398,
+    "std_final_error_m": 0.01499670576304265
+  },
+  "residual_policy": {
+    "label": "closed-loop residual",
+    "n_rollouts": 32,
+    "success_rate": 0.0,
+    "success_count": 0,
+    "mean_final_error_m": 0.2922390528807798,
+    "median_final_error_m": 0.28797322880410886,
+    "p95_final_error_m": 0.3117219115844222,
+    "min_final_error_m": 0.26609037969758187,
+    "max_final_error_m": 0.359754789266398,
+    "std_final_error_m": 0.01499670576304265
+  },
+  "improvement": {
+    "median_final_error_m_reduction_pct": 0.0,
+    "mean_final_error_m_reduction_pct": 0.0,
+    "success_rate_delta": 0.0
+  },
+  "verdict": "No significant difference"
+}

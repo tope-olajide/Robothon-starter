@@ -1,0 +1,3909 @@
+{
+  "project": "ARSA-X \u2014 Agentic Robotic Surgery Assistant eXtended",
+  "source": "derived from trajectory.json",
+  "finger_order": [
+    "thumb",
+    "index",
+    "middle",
+    "ring",
+    "little"
+  ],
+  "sample_count": 216,
+  "summary": {
+    "max_active_fingers": 5,
+    "median_contact_balance": 0.9,
+    "peak_grip_strength": 1.0,
+    "peak_tissue_displacement_m": 0.05573,
+    "peak_wrist_force_n": 4.8562
+  },
+  "timeline": [
+    {
+      "time_s": 0.0,
+      "stage": "stabilize",
+      "phase": 0.0,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00089,
+      "wrist_force_n": 4.1734,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 0.333,
+      "stage": "stabilize",
+      "phase": 0.0046,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00163,
+      "wrist_force_n": 3.7601,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 0.667,
+      "stage": "stabilize",
+      "phase": 0.0093,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00165,
+      "wrist_force_n": 3.7998,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 1.0,
+      "stage": "stabilize",
+      "phase": 0.0139,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00212,
+      "wrist_force_n": 3.7429,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 1.333,
+      "stage": "stabilize",
+      "phase": 0.0185,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.0023,
+      "wrist_force_n": 4.2544,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 1.667,
+      "stage": "stabilize",
+      "phase": 0.0231,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00218,
+      "wrist_force_n": 3.6531,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 2.0,
+      "stage": "stabilize",
+      "phase": 0.0278,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00198,
+      "wrist_force_n": 3.473,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 2.333,
+      "stage": "stabilize",
+      "phase": 0.0324,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00181,
+      "wrist_force_n": 3.4683,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 2.667,
+      "stage": "stabilize",
+      "phase": 0.037,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00175,
+      "wrist_force_n": 3.6351,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 3.0,
+      "stage": "stabilize",
+      "phase": 0.0417,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.00226,
+      "wrist_force_n": 3.5989,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 3.333,
+      "stage": "stabilize",
+      "phase": 0.0463,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.0043,
+      "wrist_force_n": 3.7426,
+      "event": "stable_hold"
+    },
+    {
+      "time_s": 3.667,
+      "stage": "stabilize",
+      "phase": 0.0509,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.02098,
+      "wrist_force_n": 4.1876,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 4.0,
+      "stage": "stabilize",
+      "phase": 0.0556,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.02078,
+      "wrist_force_n": 4.1886,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 4.333,
+      "stage": "stabilize",
+      "phase": 0.0602,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.02066,
+      "wrist_force_n": 3.8269,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 4.667,
+      "stage": "stabilize",
+      "phase": 0.0648,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.02055,
+      "wrist_force_n": 3.8826,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 5.0,
+      "stage": "stabilize",
+      "phase": 0.0694,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.0191,
+      "wrist_force_n": 4.0455,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 5.333,
+      "stage": "stabilize",
+      "phase": 0.0741,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01202,
+      "wrist_force_n": 3.9022,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 5.667,
+      "stage": "stabilize",
+      "phase": 0.0787,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01185,
+      "wrist_force_n": 3.9574,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 6.0,
+      "stage": "grasp",
+      "phase": 0.0833,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.0117,
+      "wrist_force_n": 4.0013,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 6.333,
+      "stage": "grasp",
+      "phase": 0.088,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01156,
+      "wrist_force_n": 4.0518,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 6.667,
+      "stage": "grasp",
+      "phase": 0.0926,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01245,
+      "wrist_force_n": 4.7285,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 7.0,
+      "stage": "grasp",
+      "phase": 0.0972,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01752,
+      "wrist_force_n": 4.0146,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 7.333,
+      "stage": "grasp",
+      "phase": 0.1019,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01119,
+      "wrist_force_n": 1.7498,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 7.667,
+      "stage": "grasp",
+      "phase": 0.1065,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01221,
+      "wrist_force_n": 1.2908,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 8.0,
+      "stage": "grasp",
+      "phase": 0.1111,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01163,
+      "wrist_force_n": 1.0783,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 8.333,
+      "stage": "grasp",
+      "phase": 0.1157,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01155,
+      "wrist_force_n": 1.2611,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 8.667,
+      "stage": "grasp",
+      "phase": 0.1204,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01801,
+      "wrist_force_n": 0.8519,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 9.0,
+      "stage": "grasp",
+      "phase": 0.125,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01149,
+      "wrist_force_n": 0.9053,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 9.333,
+      "stage": "grasp",
+      "phase": 0.1296,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01332,
+      "wrist_force_n": 1.8711,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 9.667,
+      "stage": "grasp",
+      "phase": 0.1343,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01865,
+      "wrist_force_n": 3.8847,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 10.0,
+      "stage": "grasp",
+      "phase": 0.1389,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01315,
+      "wrist_force_n": 4.0174,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 10.333,
+      "stage": "grasp",
+      "phase": 0.1435,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.02372,
+      "wrist_force_n": 4.8018,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 10.667,
+      "stage": "grasp",
+      "phase": 0.1481,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.02257,
+      "wrist_force_n": 4.118,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 11.0,
+      "stage": "grasp",
+      "phase": 0.1528,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01169,
+      "wrist_force_n": 4.2769,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 11.333,
+      "stage": "grasp",
+      "phase": 0.1574,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01837,
+      "wrist_force_n": 4.5467,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 11.667,
+      "stage": "grasp",
+      "phase": 0.162,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01162,
+      "wrist_force_n": 3.742,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 12.0,
+      "stage": "grasp",
+      "phase": 0.1667,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01265,
+      "wrist_force_n": 3.911,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 12.333,
+      "stage": "grasp",
+      "phase": 0.1713,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01858,
+      "wrist_force_n": 3.4978,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 12.667,
+      "stage": "grasp",
+      "phase": 0.1759,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01083,
+      "wrist_force_n": 3.6031,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 13.0,
+      "stage": "grasp",
+      "phase": 0.1806,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01244,
+      "wrist_force_n": 3.7867,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 13.333,
+      "stage": "grasp",
+      "phase": 0.1852,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01167,
+      "wrist_force_n": 3.9892,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 13.667,
+      "stage": "grasp",
+      "phase": 0.1898,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01156,
+      "wrist_force_n": 4.2984,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 14.0,
+      "stage": "grasp",
+      "phase": 0.1944,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01831,
+      "wrist_force_n": 4.075,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 14.333,
+      "stage": "grasp",
+      "phase": 0.1991,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01148,
+      "wrist_force_n": 4.0193,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 14.667,
+      "stage": "orient",
+      "phase": 0.2037,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01179,
+      "wrist_force_n": 4.2592,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 15.0,
+      "stage": "orient",
+      "phase": 0.2083,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01833,
+      "wrist_force_n": 4.0803,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 15.333,
+      "stage": "orient",
+      "phase": 0.213,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.02157,
+      "wrist_force_n": 4.0697,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 15.667,
+      "stage": "orient",
+      "phase": 0.2176,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.03023,
+      "wrist_force_n": 4.2266,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 16.0,
+      "stage": "orient",
+      "phase": 0.2222,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.02655,
+      "wrist_force_n": 4.0418,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 16.333,
+      "stage": "orient",
+      "phase": 0.2269,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.0116,
+      "wrist_force_n": 3.9016,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 16.667,
+      "stage": "orient",
+      "phase": 0.2315,
+      "contacts": {
+        "thumb": 0.4032,
+        "index": 0.4532,
+        "middle": 0.3532,
+        "ring": 0.3032,
+        "little": 0.2532
+      },
+      "active_fingers": 1,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.2717,
+      "tissue_displacement_m": 0.01822,
+      "wrist_force_n": 2.8309,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 17.0,
+      "stage": "orient",
+      "phase": 0.2361,
+      "contacts": {
+        "thumb": 0.05,
+        "index": 0.1,
+        "middle": 0.0,
+        "ring": -0.05,
+        "little": -0.1
+      },
+      "active_fingers": 0,
+      "contact_balance_score": 0.8,
+      "grip_strength": 0.0,
+      "tissue_displacement_m": 0.01346,
+      "wrist_force_n": 0.911,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 17.333,
+      "stage": "orient",
+      "phase": 0.2407,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02216,
+      "wrist_force_n": 0.7449,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 17.667,
+      "stage": "orient",
+      "phase": 0.2454,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03023,
+      "wrist_force_n": 1.0138,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 18.0,
+      "stage": "orient",
+      "phase": 0.25,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03863,
+      "wrist_force_n": 0.7356,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 18.333,
+      "stage": "orient",
+      "phase": 0.2546,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03062,
+      "wrist_force_n": 1.8958,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 18.667,
+      "stage": "orient",
+      "phase": 0.2593,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01384,
+      "wrist_force_n": 1.4568,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 19.0,
+      "stage": "orient",
+      "phase": 0.2639,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02319,
+      "wrist_force_n": 1.4652,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 19.333,
+      "stage": "orient",
+      "phase": 0.2685,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02161,
+      "wrist_force_n": 1.369,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 19.667,
+      "stage": "orient",
+      "phase": 0.2731,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02992,
+      "wrist_force_n": 1.1147,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 20.0,
+      "stage": "orient",
+      "phase": 0.2778,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03446,
+      "wrist_force_n": 1.1939,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 20.333,
+      "stage": "orient",
+      "phase": 0.2824,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04037,
+      "wrist_force_n": 1.1815,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 20.667,
+      "stage": "orient",
+      "phase": 0.287,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04066,
+      "wrist_force_n": 1.2181,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 21.0,
+      "stage": "orient",
+      "phase": 0.2917,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03254,
+      "wrist_force_n": 1.3066,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 21.333,
+      "stage": "orient",
+      "phase": 0.2963,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0247,
+      "wrist_force_n": 1.2919,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 21.667,
+      "stage": "insert",
+      "phase": 0.3009,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02529,
+      "wrist_force_n": 1.4039,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 22.0,
+      "stage": "insert",
+      "phase": 0.3056,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02401,
+      "wrist_force_n": 1.4372,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 22.333,
+      "stage": "insert",
+      "phase": 0.3102,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0354,
+      "wrist_force_n": 1.4315,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 22.667,
+      "stage": "insert",
+      "phase": 0.3148,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03222,
+      "wrist_force_n": 1.4358,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 23.0,
+      "stage": "insert",
+      "phase": 0.3194,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02206,
+      "wrist_force_n": 1.741,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 23.333,
+      "stage": "insert",
+      "phase": 0.3241,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01217,
+      "wrist_force_n": 1.4061,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 23.667,
+      "stage": "insert",
+      "phase": 0.3287,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01423,
+      "wrist_force_n": 1.4581,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 24.0,
+      "stage": "insert",
+      "phase": 0.3333,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0146,
+      "wrist_force_n": 1.4213,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 24.333,
+      "stage": "insert",
+      "phase": 0.338,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01257,
+      "wrist_force_n": 1.3941,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 24.667,
+      "stage": "insert",
+      "phase": 0.3426,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01755,
+      "wrist_force_n": 1.6929,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 25.0,
+      "stage": "insert",
+      "phase": 0.3472,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01524,
+      "wrist_force_n": 1.4385,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 25.333,
+      "stage": "insert",
+      "phase": 0.3519,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02018,
+      "wrist_force_n": 1.3445,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 25.667,
+      "stage": "insert",
+      "phase": 0.3565,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02866,
+      "wrist_force_n": 1.4272,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 26.0,
+      "stage": "insert",
+      "phase": 0.3611,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03127,
+      "wrist_force_n": 1.3762,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 26.333,
+      "stage": "insert",
+      "phase": 0.3657,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03094,
+      "wrist_force_n": 1.3545,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 26.667,
+      "stage": "insert",
+      "phase": 0.3704,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01672,
+      "wrist_force_n": 1.3389,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 27.0,
+      "stage": "insert",
+      "phase": 0.375,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01509,
+      "wrist_force_n": 1.4423,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 27.333,
+      "stage": "insert",
+      "phase": 0.3796,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01625,
+      "wrist_force_n": 1.4346,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 27.667,
+      "stage": "insert",
+      "phase": 0.3843,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01564,
+      "wrist_force_n": 2.8802,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 28.0,
+      "stage": "insert",
+      "phase": 0.3889,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01818,
+      "wrist_force_n": 3.7869,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 28.333,
+      "stage": "insert",
+      "phase": 0.3935,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02013,
+      "wrist_force_n": 4.2428,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 28.667,
+      "stage": "insert",
+      "phase": 0.3981,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01484,
+      "wrist_force_n": 4.3534,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 29.0,
+      "stage": "insert",
+      "phase": 0.4028,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01428,
+      "wrist_force_n": 4.4041,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 29.333,
+      "stage": "insert",
+      "phase": 0.4074,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01341,
+      "wrist_force_n": 4.3897,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 29.667,
+      "stage": "insert",
+      "phase": 0.412,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01292,
+      "wrist_force_n": 4.8562,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 30.0,
+      "stage": "insert",
+      "phase": 0.4167,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01414,
+      "wrist_force_n": 3.5822,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 30.333,
+      "stage": "insert",
+      "phase": 0.4213,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01624,
+      "wrist_force_n": 3.8531,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 30.667,
+      "stage": "insert",
+      "phase": 0.4259,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02142,
+      "wrist_force_n": 2.3784,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 31.0,
+      "stage": "insert",
+      "phase": 0.4306,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03515,
+      "wrist_force_n": 2.3965,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 31.333,
+      "stage": "insert",
+      "phase": 0.4352,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03227,
+      "wrist_force_n": 2.4256,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 31.667,
+      "stage": "insert",
+      "phase": 0.4398,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.029,
+      "wrist_force_n": 2.2074,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 32.0,
+      "stage": "insert",
+      "phase": 0.4444,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01818,
+      "wrist_force_n": 2.3538,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 32.333,
+      "stage": "insert",
+      "phase": 0.4491,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01692,
+      "wrist_force_n": 2.4185,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 32.667,
+      "stage": "pull",
+      "phase": 0.4537,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01652,
+      "wrist_force_n": 2.3116,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 33.0,
+      "stage": "pull",
+      "phase": 0.4583,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03149,
+      "wrist_force_n": 2.6353,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 33.333,
+      "stage": "pull",
+      "phase": 0.463,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02358,
+      "wrist_force_n": 2.4012,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 33.667,
+      "stage": "pull",
+      "phase": 0.4676,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01851,
+      "wrist_force_n": 2.3209,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 34.0,
+      "stage": "pull",
+      "phase": 0.4722,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01401,
+      "wrist_force_n": 2.293,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 34.333,
+      "stage": "pull",
+      "phase": 0.4769,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01446,
+      "wrist_force_n": 2.336,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 34.667,
+      "stage": "pull",
+      "phase": 0.4815,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01304,
+      "wrist_force_n": 2.4607,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 35.0,
+      "stage": "pull",
+      "phase": 0.4861,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01294,
+      "wrist_force_n": 2.3297,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 35.333,
+      "stage": "pull",
+      "phase": 0.4907,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01275,
+      "wrist_force_n": 2.5992,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 35.667,
+      "stage": "pull",
+      "phase": 0.4954,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01746,
+      "wrist_force_n": 2.336,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 36.0,
+      "stage": "pull",
+      "phase": 0.5,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02449,
+      "wrist_force_n": 2.3337,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 36.333,
+      "stage": "pull",
+      "phase": 0.5046,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02478,
+      "wrist_force_n": 2.3308,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 36.667,
+      "stage": "pull",
+      "phase": 0.5093,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03274,
+      "wrist_force_n": 2.3738,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 37.0,
+      "stage": "pull",
+      "phase": 0.5139,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02773,
+      "wrist_force_n": 2.4016,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 37.333,
+      "stage": "pull",
+      "phase": 0.5185,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01591,
+      "wrist_force_n": 2.3849,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 37.667,
+      "stage": "pull",
+      "phase": 0.5231,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01717,
+      "wrist_force_n": 2.4373,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 38.0,
+      "stage": "pull",
+      "phase": 0.5278,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02105,
+      "wrist_force_n": 2.3788,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 38.333,
+      "stage": "pull",
+      "phase": 0.5324,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02446,
+      "wrist_force_n": 2.3314,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 38.667,
+      "stage": "pull",
+      "phase": 0.537,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03064,
+      "wrist_force_n": 2.4047,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 39.0,
+      "stage": "pull",
+      "phase": 0.5417,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02633,
+      "wrist_force_n": 2.5855,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 39.333,
+      "stage": "pull",
+      "phase": 0.5463,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01627,
+      "wrist_force_n": 2.3652,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 39.667,
+      "stage": "pull",
+      "phase": 0.5509,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0157,
+      "wrist_force_n": 2.3301,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 40.0,
+      "stage": "pull",
+      "phase": 0.5556,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01326,
+      "wrist_force_n": 2.4113,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 40.333,
+      "stage": "pull",
+      "phase": 0.5602,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01591,
+      "wrist_force_n": 2.3717,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 40.667,
+      "stage": "pull",
+      "phase": 0.5648,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01782,
+      "wrist_force_n": 2.302,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 41.0,
+      "stage": "pull",
+      "phase": 0.5694,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01965,
+      "wrist_force_n": 2.4786,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 41.333,
+      "stage": "pull",
+      "phase": 0.5741,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01264,
+      "wrist_force_n": 2.2965,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 41.667,
+      "stage": "pull",
+      "phase": 0.5787,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02962,
+      "wrist_force_n": 2.3317,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 42.0,
+      "stage": "pull",
+      "phase": 0.5833,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03153,
+      "wrist_force_n": 2.3357,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 42.333,
+      "stage": "pull",
+      "phase": 0.588,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01907,
+      "wrist_force_n": 2.3491,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 42.667,
+      "stage": "pull",
+      "phase": 0.5926,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01349,
+      "wrist_force_n": 2.4673,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 43.0,
+      "stage": "pull",
+      "phase": 0.5972,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01434,
+      "wrist_force_n": 2.3643,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 43.333,
+      "stage": "regrasp",
+      "phase": 0.6019,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01252,
+      "wrist_force_n": 2.3664,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 43.667,
+      "stage": "regrasp",
+      "phase": 0.6065,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0183,
+      "wrist_force_n": 2.3602,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 44.0,
+      "stage": "regrasp",
+      "phase": 0.6111,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02182,
+      "wrist_force_n": 2.4058,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 44.333,
+      "stage": "regrasp",
+      "phase": 0.6157,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01713,
+      "wrist_force_n": 2.4027,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 44.667,
+      "stage": "regrasp",
+      "phase": 0.6204,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01615,
+      "wrist_force_n": 2.3479,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 45.0,
+      "stage": "regrasp",
+      "phase": 0.625,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01289,
+      "wrist_force_n": 2.6608,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 45.333,
+      "stage": "regrasp",
+      "phase": 0.6296,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01309,
+      "wrist_force_n": 2.3498,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 45.667,
+      "stage": "regrasp",
+      "phase": 0.6343,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01237,
+      "wrist_force_n": 2.3401,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 46.0,
+      "stage": "regrasp",
+      "phase": 0.6389,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0122,
+      "wrist_force_n": 2.4009,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 46.333,
+      "stage": "regrasp",
+      "phase": 0.6435,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01851,
+      "wrist_force_n": 2.3824,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 46.667,
+      "stage": "regrasp",
+      "phase": 0.6481,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02921,
+      "wrist_force_n": 2.5949,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 47.0,
+      "stage": "regrasp",
+      "phase": 0.6528,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0335,
+      "wrist_force_n": 2.3666,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 47.333,
+      "stage": "regrasp",
+      "phase": 0.6574,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03073,
+      "wrist_force_n": 2.4291,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 47.667,
+      "stage": "regrasp",
+      "phase": 0.662,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01633,
+      "wrist_force_n": 2.3349,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 48.0,
+      "stage": "regrasp",
+      "phase": 0.6667,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01842,
+      "wrist_force_n": 2.3598,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 48.333,
+      "stage": "regrasp",
+      "phase": 0.6713,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02385,
+      "wrist_force_n": 2.4013,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 48.667,
+      "stage": "regrasp",
+      "phase": 0.6759,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03162,
+      "wrist_force_n": 2.3971,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 49.0,
+      "stage": "regrasp",
+      "phase": 0.6806,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03798,
+      "wrist_force_n": 2.2659,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 49.333,
+      "stage": "regrasp",
+      "phase": 0.6852,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04431,
+      "wrist_force_n": 2.4521,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 49.667,
+      "stage": "regrasp",
+      "phase": 0.6898,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03194,
+      "wrist_force_n": 2.5332,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 50.0,
+      "stage": "regrasp",
+      "phase": 0.6944,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01935,
+      "wrist_force_n": 2.453,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 50.333,
+      "stage": "regrasp",
+      "phase": 0.6991,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02808,
+      "wrist_force_n": 2.3673,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 50.667,
+      "stage": "regrasp",
+      "phase": 0.7037,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02822,
+      "wrist_force_n": 2.3892,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 51.0,
+      "stage": "regrasp",
+      "phase": 0.7083,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0376,
+      "wrist_force_n": 2.5897,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 51.333,
+      "stage": "regrasp",
+      "phase": 0.713,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03961,
+      "wrist_force_n": 2.3574,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 51.667,
+      "stage": "regrasp",
+      "phase": 0.7176,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04976,
+      "wrist_force_n": 2.3796,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 52.0,
+      "stage": "tie",
+      "phase": 0.7222,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04732,
+      "wrist_force_n": 2.5944,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 52.333,
+      "stage": "tie",
+      "phase": 0.7269,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03381,
+      "wrist_force_n": 2.3638,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 52.667,
+      "stage": "tie",
+      "phase": 0.7315,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02956,
+      "wrist_force_n": 2.6102,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 53.0,
+      "stage": "tie",
+      "phase": 0.7361,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03198,
+      "wrist_force_n": 2.327,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 53.333,
+      "stage": "tie",
+      "phase": 0.7407,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03509,
+      "wrist_force_n": 2.3535,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 53.667,
+      "stage": "tie",
+      "phase": 0.7454,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04549,
+      "wrist_force_n": 2.3662,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 54.0,
+      "stage": "tie",
+      "phase": 0.75,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04507,
+      "wrist_force_n": 2.3144,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 54.333,
+      "stage": "tie",
+      "phase": 0.7546,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.05573,
+      "wrist_force_n": 2.3412,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 54.667,
+      "stage": "tie",
+      "phase": 0.7593,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04113,
+      "wrist_force_n": 2.3733,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 55.0,
+      "stage": "tie",
+      "phase": 0.7639,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02229,
+      "wrist_force_n": 2.4595,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 55.333,
+      "stage": "tie",
+      "phase": 0.7685,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03602,
+      "wrist_force_n": 2.4132,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 55.667,
+      "stage": "tie",
+      "phase": 0.7731,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03423,
+      "wrist_force_n": 2.3425,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 56.0,
+      "stage": "tie",
+      "phase": 0.7778,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04306,
+      "wrist_force_n": 2.5527,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 56.333,
+      "stage": "tie",
+      "phase": 0.7824,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04904,
+      "wrist_force_n": 2.3822,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 56.667,
+      "stage": "tie",
+      "phase": 0.787,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.05207,
+      "wrist_force_n": 2.4942,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 57.0,
+      "stage": "tie",
+      "phase": 0.7917,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.05128,
+      "wrist_force_n": 2.3527,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 57.333,
+      "stage": "tie",
+      "phase": 0.7963,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.028,
+      "wrist_force_n": 2.3696,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 57.667,
+      "stage": "tie",
+      "phase": 0.8009,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03204,
+      "wrist_force_n": 2.3243,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 58.0,
+      "stage": "tie",
+      "phase": 0.8056,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03463,
+      "wrist_force_n": 2.4052,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 58.333,
+      "stage": "tie",
+      "phase": 0.8102,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03591,
+      "wrist_force_n": 2.361,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 58.667,
+      "stage": "tie",
+      "phase": 0.8148,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04895,
+      "wrist_force_n": 2.3963,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 59.0,
+      "stage": "tie",
+      "phase": 0.8194,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.04373,
+      "wrist_force_n": 2.5071,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 59.333,
+      "stage": "tie",
+      "phase": 0.8241,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01905,
+      "wrist_force_n": 2.3703,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 59.667,
+      "stage": "tie",
+      "phase": 0.8287,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02035,
+      "wrist_force_n": 2.4323,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 60.0,
+      "stage": "tie",
+      "phase": 0.8333,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02052,
+      "wrist_force_n": 2.4147,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 60.333,
+      "stage": "tie",
+      "phase": 0.838,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02223,
+      "wrist_force_n": 2.306,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 60.667,
+      "stage": "tie",
+      "phase": 0.8426,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02355,
+      "wrist_force_n": 2.5304,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 61.0,
+      "stage": "tie",
+      "phase": 0.8472,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02375,
+      "wrist_force_n": 2.3302,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 61.333,
+      "stage": "tie",
+      "phase": 0.8519,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02774,
+      "wrist_force_n": 2.3546,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 61.667,
+      "stage": "tie",
+      "phase": 0.8565,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02446,
+      "wrist_force_n": 2.4485,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 62.0,
+      "stage": "tie",
+      "phase": 0.8611,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01997,
+      "wrist_force_n": 2.3453,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 62.333,
+      "stage": "tie",
+      "phase": 0.8657,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02192,
+      "wrist_force_n": 2.3244,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 62.667,
+      "stage": "tie",
+      "phase": 0.8704,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03163,
+      "wrist_force_n": 2.4228,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 63.0,
+      "stage": "tie",
+      "phase": 0.875,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03082,
+      "wrist_force_n": 2.3294,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 63.333,
+      "stage": "tie",
+      "phase": 0.8796,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02369,
+      "wrist_force_n": 2.5115,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 63.667,
+      "stage": "complete",
+      "phase": 0.8843,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02301,
+      "wrist_force_n": 2.3939,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 64.0,
+      "stage": "complete",
+      "phase": 0.8889,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02274,
+      "wrist_force_n": 2.3758,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 64.333,
+      "stage": "complete",
+      "phase": 0.8935,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02013,
+      "wrist_force_n": 2.3885,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 64.667,
+      "stage": "complete",
+      "phase": 0.8981,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0163,
+      "wrist_force_n": 2.3737,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 65.0,
+      "stage": "complete",
+      "phase": 0.9028,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02616,
+      "wrist_force_n": 2.3124,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 65.333,
+      "stage": "complete",
+      "phase": 0.9074,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02295,
+      "wrist_force_n": 2.3133,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 65.667,
+      "stage": "complete",
+      "phase": 0.912,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02112,
+      "wrist_force_n": 2.3366,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 66.0,
+      "stage": "complete",
+      "phase": 0.9167,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0164,
+      "wrist_force_n": 2.3318,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 66.333,
+      "stage": "complete",
+      "phase": 0.9213,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01383,
+      "wrist_force_n": 2.3662,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 66.667,
+      "stage": "complete",
+      "phase": 0.9259,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01372,
+      "wrist_force_n": 2.5811,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 67.0,
+      "stage": "complete",
+      "phase": 0.9306,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02326,
+      "wrist_force_n": 2.474,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 67.333,
+      "stage": "complete",
+      "phase": 0.9352,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02502,
+      "wrist_force_n": 2.3341,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 67.667,
+      "stage": "complete",
+      "phase": 0.9398,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03143,
+      "wrist_force_n": 2.2626,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 68.0,
+      "stage": "complete",
+      "phase": 0.9444,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03343,
+      "wrist_force_n": 2.4625,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 68.333,
+      "stage": "complete",
+      "phase": 0.9491,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02992,
+      "wrist_force_n": 2.3423,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 68.667,
+      "stage": "complete",
+      "phase": 0.9537,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0159,
+      "wrist_force_n": 2.3609,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 69.0,
+      "stage": "complete",
+      "phase": 0.9583,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01673,
+      "wrist_force_n": 2.4018,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 69.333,
+      "stage": "complete",
+      "phase": 0.963,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02632,
+      "wrist_force_n": 2.3837,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 69.667,
+      "stage": "complete",
+      "phase": 0.9676,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.02428,
+      "wrist_force_n": 2.3427,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 70.0,
+      "stage": "complete",
+      "phase": 0.9722,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.0322,
+      "wrist_force_n": 2.5042,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 70.333,
+      "stage": "complete",
+      "phase": 0.9769,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.03266,
+      "wrist_force_n": 2.3565,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 70.667,
+      "stage": "complete",
+      "phase": 0.9815,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01846,
+      "wrist_force_n": 2.3257,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 71.0,
+      "stage": "complete",
+      "phase": 0.9861,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01717,
+      "wrist_force_n": 2.3227,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 71.333,
+      "stage": "complete",
+      "phase": 0.9907,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01707,
+      "wrist_force_n": 2.3231,
+      "event": "tissue_contact"
+    },
+    {
+      "time_s": 71.667,
+      "stage": "complete",
+      "phase": 0.9954,
+      "contacts": {
+        "thumb": 1.0,
+        "index": 1.0,
+        "middle": 1.0,
+        "ring": 0.95,
+        "little": 0.9
+      },
+      "active_fingers": 5,
+      "contact_balance_score": 0.9,
+      "grip_strength": 1.0,
+      "tissue_displacement_m": 0.01415,
+      "wrist_force_n": 2.4701,
+      "event": "tissue_contact"
+    }
+  ]
+}
